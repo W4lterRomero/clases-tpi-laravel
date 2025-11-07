@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    //
-    public function ejercicio1(Request $request){
+    //Solo me hizo falta mostrar la vista
+    public function ejercicio1(){
         return view('pages.ejercicio1');
     }
 
@@ -43,5 +43,8 @@ class HomeController extends Controller
         }
 
         return view('pages.resultado', compact('tabla', 'P'));
+    }
+    public function faltoCrearLaVista(){
+        
     }
 }
