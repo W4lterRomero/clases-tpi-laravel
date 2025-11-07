@@ -1,0 +1,10 @@
+php artisan make:model Proveedor -mfscr
+php artisan make:model Categoria -mfscr
+php artisan make:model Producto -mfscr
+
+(estos nos crearon migration,factory,seeder, controller y la r es para que sean resource)
+
+
+php artisan migrate
+
+php artisan migrate:fres --seed
